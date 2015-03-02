@@ -44,6 +44,10 @@ gem 'uglifier'
 gem "compass-rails"
 gem "autoprefixer-rails"
 
+gem 'bunny'
+gem 'resque'
+gem 'jekyll'
+
 gem 'unicorn'
 gem 'flowdock'
 
