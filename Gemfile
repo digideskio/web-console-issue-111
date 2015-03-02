@@ -56,7 +56,7 @@ gem 'airbrake'
 gem 'has_properties', :git => 'git@github.com:factorymedia/has_properties.git'
 # gem 'has_properties', :path => '~/git/factory/has_properties'
 gem 'byebug'
-#gem 'spring'
+gem 'spring'
 gem 'js-routes'
 gem 'zeroclipboard-rails', '~> 0.1.0'
 
@@ -96,4 +96,3 @@ end
 group :production do
   gem 'passenger'
 end
-
