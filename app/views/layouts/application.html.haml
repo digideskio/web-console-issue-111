@@ -1,0 +1,10 @@
+!!! 5
+%html
+  %head
+
+  %body
+    - if Rails.env.development? && params[:console].present?
+      = console
+    .wrapper.l-content-wrapper
+      .events-content
+        = yield
