@@ -45,10 +45,7 @@ gem "compass-rails"
 gem "autoprefixer-rails"
 
 gem 'unicorn'
-
-gem 'factory-meta-search-hooks', :git => 'git@github.com:factorymedia/factory-meta-search-hooks.git'
-gem 'factory-apps-deploy', :git => 'git@github.com:factorymedia/factory-apps-deploy.git'
-# gem 'factory-apps-oauth2', path: "~/git/factory-apps-oauth2"
+gem 'flowdock'
 
 gem 'newrelic_rpm'
 gem 'airbrake'

@@ -1,20 +1,4 @@
 GIT
-  remote: git@github.com:factorymedia/factory-apps-deploy.git
-  revision: e6d8ecdb317cafdd35291e2a5d925961cd340503
-  specs:
-    factory-apps-deploy (0.0.4)
-      capistrano (~> 2.15.5)
-      flowdock
-
-GIT
-  remote: git@github.com:factorymedia/factory-meta-search-hooks.git
-  revision: 673817bd25823c218715d2188dc1d677d0cbc666
-  specs:
-    factory-meta-search-hooks (0.0.1)
-      activesupport
-      rest-client
-
-GIT
   remote: git@github.com:factorymedia/has_properties.git
   revision: 556606ba77aa75819496c648e6d023b1f9794505
   specs:
@@ -400,7 +384,6 @@ GEM
     net-ssh (2.9.2)
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
-    netrc (0.10.3)
     newrelic_rpm (3.10.0.279)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
@@ -460,9 +443,6 @@ GEM
       ffi (>= 0.5.0)
     redcarpet (3.2.2)
     ref (1.0.5)
-    rest-client (1.7.3)
-      mime-types (>= 1.16, < 3.0)
-      netrc (~> 0.7)
     ri_cal (0.8.8)
     rspec (3.2.0)
       rspec-core (~> 3.2.0)
@@ -588,9 +568,8 @@ DEPENDENCIES
   elasticsearch-model
   elasticsearch-rails
   excon
-  factory-apps-deploy!
-  factory-meta-search-hooks!
   factory_girl_rails
+  flowdock
   fog
   font-awesome-rails
   friendly_id!
